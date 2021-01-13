@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginBottom="10dp">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/numLayout"
+        android:layout_marginEnd="5dp"
+        android:layout_weight="1">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/hint"
+            android:singleLine="true"
+            android:id="@+id/numText"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <Spinner
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="5dp"
+        android:id="@+id/typeNum"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/ingredientBtn"
+        android:text="@string/ingredients"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:onClick="IngredientStart"
+        android:layout_weight="3"/>
+</LinearLayout>

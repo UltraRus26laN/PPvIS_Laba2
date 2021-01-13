@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/to_favorite"
+        android:enabled="true"
+        android:title="@string/favorite"
+        android:icon="@drawable/ic_baseline_favorite_border_24" />
+    <item android:id="@+id/to_eating_menu"
+        android:enabled="true"
+        android:title="@string/calories"
+        android:icon="@drawable/ic_restaurant_menu"/>
+    <item android:id="@+id/to_search"
+        android:enabled="true"
+        android:title="@string/search"
+        android:icon="@drawable/ic_baseline_search_24"/>
+    <item android:id="@+id/to_add"
+        android:enabled="true"
+        android:title="@string/add"
+        android:icon="@drawable/ic_baseline_add_24"/>
+    <item android:id="@+id/to_menu"
+        android:enabled="true"
+        android:title="@string/menu"
+        android:icon="@drawable/ic_baseline_menu_24"/>
+</menu>
